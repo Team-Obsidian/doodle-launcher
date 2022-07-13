@@ -2647,17 +2647,17 @@ var Ee = function () {
 };
 q(Ee, ne);
 var z = {};
-z.vZ = new De("/logos/2021/doodles/championislandrc7mashmod/", "archery");
-z.eX = new De("/logos/2021/doodles/championislandrc7mashmod/", "climbing");
-z.oN = new De("/logos/2021/doodles/championislandrc7mashmod/", "marathon");
-z.M0 = new De("/logos/2021/doodles/championislandrc7mashmod/", "overworld");
-z.IM = new De("/logos/2021/doodles/championislandrc7mashmod/", "pingpong");
-z.nO = new De("/logos/2021/doodles/championislandrc7mashmod/", "rugby");
-z.wQ = new De("/logos/2021/doodles/championislandrc7mashmod/", "skate");
-z.zZ = new De("/logos/2021/doodles/championislandrc7mashmod/", "ballad");
-z.K6 = new De("/logos/2021/doodles/championislandrc7mashmod/", "disco");
-z.d$ = new De("/logos/2021/doodles/championislandrc7mashmod/", "rock");
-z.KM = new De("/logos/2021/doodles/championislandrc7mashmod/", "shared");
+z.vZ = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "archery");
+z.eX = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "climbing");
+z.oN = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "marathon");
+z.M0 = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "overworld");
+z.IM = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "pingpong");
+z.nO = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "rugby");
+z.wQ = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "skate");
+z.zZ = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "ballad");
+z.K6 = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "disco");
+z.d$ = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "rock");
+z.KM = new De("/logos/2021/doodles/ChampionIslandRC7MashMod/", "shared");
 var A = {};
 A.Vva = new y(z.vZ, 0, 666.6669921875, 0);
 A.Wva = new y(z.vZ, 1666.6669921875, 187.5, 0);
@@ -3518,7 +3518,7 @@ var sg = function (b, g) {
         zg(g.toString(), !1);
     };
 var Qg = Bg("id", "144867217"),
-    Kb = new Ab(yb, "/logos/2021/doodles/championislandrc7mashmod/kitsune_compiled_deferred_module.js"),
+    Kb = new Ab(yb, "/logos/2021/doodles/ChampionIslandRC7MashMod/kitsune_compiled_deferred_module.js"),
     Sg = 1 / 30,
     Tg = 1e3 * Sg,
     Ug = new createjs.Rectangle(0, 0, 960, 540),
@@ -17414,7 +17414,7 @@ var jl = function (b, g, m) {
         }).then(function () {});
     };
 var ml = function () {
-    jl.call(this, "/logos/2021/doodles/championislandrc7mashmod/", ll, !1);
+    jl.call(this, "/logos/2021/doodles/ChampionIslandRC7MashMod/", ll, !1);
 };
 q(ml, jl);
 Ha(ml);
@@ -20357,7 +20357,7 @@ Dn.prototype.load = function (b) {
     return za(function (a) {
         if (1 == a.ha) {
             g.tb.style.background = "#000";
-            m = "/logos/2021/doodles/championislandrc7mashmod/" + b + ".mp4";
+            m = "/logos/2021/doodles/ChampionIslandRC7MashMod/" + b + ".mp4";
             if (m in g.Ob) return (k = g.Ob[m]), (g.ha = k), a.return(k);
             c = new An();
             g.ha = c;
@@ -27973,7 +27973,7 @@ var Yv = function (b) {
         if (b && g) {
             so.d = Qg;
             !ro && gl() && ((ro = !0), vo(10));
-            var m = [Iv(), kl(ml.NM(), 0), xh(yh).load(Gg, Hg, Fe, "/logos/2021/doodles/championislandrc7mashmod/")];
+            var m = [Iv(), kl(ml.NM(), 0), xh(yh).load(Gg, Hg, Fe, "/logos/2021/doodles/ChampionIslandRC7MashMod/")];
             Promise.all(m).then(function () {
                 ["348D233EE4ED48398F13A42B3BD73D9C", "462CEA9764EE4C8D86AB0BDFEAEB1BF9"].map(function (k) {
                     return Vn(k);
