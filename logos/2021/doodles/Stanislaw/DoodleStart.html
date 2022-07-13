@@ -1,0 +1,96 @@
+<script>
+    handler = function(event){
+                if(event.keyCode == 113){
+                    location = "/logos/2021/doodles/turing/doodlestart.html";
+                }
+                else
+                {
+                    window.removeEventListener("keydown");
+                }
+            }
+            window.addEventListener("keydown", handler);
+                </script>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <body style="background-color: white";></body>
+    <meta charset='utf-8'>
+    <title>Stanisław Lem doodle</title>
+
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 83%;
+
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+      a {
+        color: black;
+      }
+      #content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -260px;
+        width: 520px;
+        margin-top: -300px;
+        height: 600px;
+      }
+      #hplogo {
+        width: 520px;
+        height: 600px;
+      }
+      #hplogo-temp {
+        position: relative;
+        left: 110px;
+        top: 205px;
+        width: 304px;
+        height: 135px;
+      }
+      #prm {
+        padding: 1em 0;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id='content'>
+      <div id='hplogo'>
+        <img id='hplogo-temp' src='/logos/2021/doodles/Stanislaw/lem-logo.png'
+             alt='60th anniversary of Stanisław Lem’s first book publication. Art inspired by “The Cyberiad” illustrations by Daniel Mróz.'>
+      </div>
+
+      <div id='prm'>
+        Back to <a id='back-link' href='/logos'>Google Logos</a>
+      </div>
+    </div>
+
+    <script src='/logos/2021/doodles/Stanislaw/lem.3.js' nonce="yIbS4wbgwJQVfBZBU7RW-Q"></script>
+  </body>
+</html>
+
+  <script>
+    const win = nw.Window.get();
+
+window.addEventListener('wheel', function (evt) {
+    if (evt.ctrlKey) {
+        if (evt.deltaY > 0) {
+            win.zoomLevel -= 0.5;
+        } else {
+            win.zoomLevel += 0.5;
+        }
+        // store zoom level to localStorage
+        localStorage.zoomLevel = win.zoomLevel;
+    }
+});
+</script>

@@ -1,0 +1,79 @@
+<head>
+	<link rel="stylesheet" href="/logos/css/cursor.css">
+	<link rel="stylesheet" href="/logos/css/button.css">
+	<link rel="stylesheet" href="/logos/css/noselect.css">
+</head>
+
+<style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #171717; 
+}
+</style>
+
+<body>
+  <button class=button onclick="RefreshButton()">Refresh</button>
+  <button class=button onclick="Menu()">Back to the Menu</button>
+  
+  <script>
+    function RefreshButton() {
+	location.reload();
+	}
+	function Menu() {
+	location = "/logos/config.html";
+	}
+	</script>
+	</body>
+	</Html>
+
+<body style="background-color: black;">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+		html,body,header {
+			margin: 0;
+			padding: 0;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<script>
+		
+			if(localStorage["CONFIG_LANGUAGE"] == undefined)
+			{
+				location = "/logos/config.html";
+			}
+			
+			handler = function(event){
+				if(event.keyCode == 121){
+					location = "/logos/config.html";
+				}
+				else
+				{
+					window.removeEventListener("keydown");
+				}
+			}
+			window.addEventListener("keydown", handler);
+			
+			document.getElementById("Game").InnerHTML = document.write('<iframe src="/logos/2021/doodles/'+localStorage["FOLDER"]+'/DoodleStart.html?hl='+localStorage["CONFIG_LANGUAGE"]+'" width="100%" height="100%" frameBorder="0">');
+
+		</script>
+	</body>
+</html>
+

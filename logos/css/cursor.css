@@ -1,0 +1,97 @@
+
+body {
+  cursor:url('/logos/assets/cursors/cursor1.png'), auto;
+  cursor: url('/logos/assets/cursors/cursor1.png'), pointer;
+  cursor: url('/logos/assets/cursors/cursor1.png'), default;
+}
+
+button {
+  cursor: url('/logos/assets/cursors/cursor1.png'), auto;
+  cursor: url('/logos/assets/cursors/cursor1.png'), pointer;
+  cursor: url('/logos/assets/cursors/cursor1.png'), default;
+}
+
+select {
+  cursor: url('/logos/assets/cursors/cursor1.png'), auto;
+  cursor: url('/logos/assets/cursors/cursor1.png'), pointer;
+  cursor: url('/logos/assets/cursors/cursor1.png'), default;
+}
+
+option {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+optgroup {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+div  {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+style {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+canvas {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+meta {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+center {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+script {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+head {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+html {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+#hplogo-c {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+::-webkit-scrollbar-track {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
+
+
+::-webkit-scrollbar-thumb {
+  cursor:  url('/logos/assets/cursors/cursor1.png') pointer;
+  cursor:  url('/logos/assets/cursors/cursor1.png') auto;
+  cursor:  url('/logos/assets/cursors/cursor1.png') default;
+}
