@@ -1,0 +1,43 @@
+<head>
+<link rel="stylesheet" href="/logos/css/button.css">
+<link rel="stylesheet" href="/logos/css/cursor.css">
+<link rel="stylesheet" href="/logos/css/noselect.css">
+</head>
+
+<audio controls autoplay loop hidden id="MenuMusic"></audio>
+
+<script type="text/javascript">
+const audio = document.querySelector('#MenuMusic')
+const audioPaths = ["/logos/assets/music/pizza.mp3", "/logos/assets/music/ghoulduellobby.mp3", "/logos/assets/music/DrWhoWaiting.mp3", "/logos/assets/music/baseball.mp3", "/logos/assets/music/halloween2019.mp3", "/logos/assets/music/loteria.mp3"]
+
+const randomIndex = randomRange(0, audioPaths.length - 1)
+const randomAudioPath = audioPaths[randomIndex]
+audio.src = randomAudioPath
+
+function randomRange(to, from) {
+  return parseInt(Math.random() * (from + 1 - to) + to)
+}
+
+</script>
+
+<body>
+  <script>
+    function RefreshButton() {
+	location.reload();
+	}
+
+	function Backtomenu() {
+		location = "/logos/config.html"
+	}
+
+
+</script>
+<p class="text" align="right">Version 2.3</p>
+<Center>
+<body class=noselect style="background-image: url('/logos/assets/background.png');">
+<h1 class="text" style="font-size: 48px;"> Mods Credits: </h1>
+<b class="text" style="font-size: 32px;"> Champion Island Entrance Randomizer: <b style="color: #993399;">Rubikium</b>
+<p>
+<p>
+<p>
+<button class=button onclick="Backtomenu()">Back to Menu</button>

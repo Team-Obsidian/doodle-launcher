@@ -1,0 +1,313 @@
+<!Doctype Html>
+	<html>
+<head>
+<link rel="stylesheet" href="/logos/css/button.css">
+<link rel="stylesheet" href="/logos/css/cursor.css">
+<link rel="stylesheet" href="/logos/css/noselect.css">
+</head>
+</html>
+
+<audio controls autoplay loop hidden id="MenuMusic"></audio>
+
+<script type="text/javascript">
+const audio = document.querySelector('#MenuMusic')
+const audioPaths = ["/logos/assets/music/pizza.mp3", "/logos/assets/music/ghoulduellobby.mp3", "/logos/assets/music/DrWhoWaiting.mp3", "/logos/assets/music/baseball.mp3", "/logos/assets/music/halloween2019.mp3", "/logos/assets/music/loteria.mp3"]
+
+const randomIndex = randomRange(0, audioPaths.length - 1)
+const randomAudioPath = audioPaths[randomIndex]
+audio.src = randomAudioPath
+
+function randomRange(to, from) {
+  return parseInt(Math.random() * (from + 1 - to) + to)
+}
+
+</script>
+
+<style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+
+<body>
+	  <p class="text" align="right">Version 2.3</p>
+  <script>
+
+    function RefreshButton() {
+	location.reload();
+	}
+    function credits() {
+	location = "/logos/credits.html"
+	}
+		var audiovolume = document.getElementById("MenuMusic");
+		function Mute() {
+    audiovolume.volume = 0.0;
+	}
+
+	</script>
+	</body>
+	</Html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<center>
+		<div class="DoodlesLauncher"></div>
+		<p>
+		<p>
+	</center>
+	</head>
+
+	<body class=noselect style="background-image: url('/logos/assets/background.png');">
+		<center>
+			<br>
+			<br>
+			<b class="text">LANGUAGE:</b><br>
+			<p class="text">Not all doodles work in all of the languages. It depends on in which countries the doodle was released.
+			<p>
+			<select class=button id="language">
+				<option value="af">Afrikaans</option>
+				<option value="am">Amharic</option>
+				<option value="ar">Arabic</option>
+				<option value="az">Azerbaijani</option>
+				<option value="be">Belarusian</option>
+				<option value="bg">Bulgarian</option>
+				<option value="bn">Bengali</option>
+				<option value="bs">Bosnian</option>
+				<option value="ca">Catalan; Valencian</option>
+				<option value="cs">Czech</option>
+				<option value="da">Danish</option>
+				<option value="de">German</option>
+				<option value="el">Greek, Modern</option>
+				<option value="en-GB">English (UK)</option>
+				<option value="en" selected>English (US)</option>
+				<option value="es">Spanish; Castilian</option>
+				<option value="et">Estonian</option>
+				<option value="eu">Basque</option>
+				<option value="fa">Persian</option>
+				<option value="fi">Finnish</option>
+				<option value="fr">French</option>
+				<option value="gl">Galician</option>
+				<option value="gu">Gujarati</option>
+				<option value="hi">Hindi</option>
+				<option value="hr">Croatian</option>
+				<option value="hu">Hungarian</option>
+				<option value="hy">Armenian</option>
+				<option value="id">Indonesian</option>
+				<option value="is">Icelandic</option>
+				<option value="it">Italian</option>
+				<option value="iw">Hebrew</option>
+				<option value="ja">Japanese</option>
+				<option value="ka">Georgian</option>
+				<option value="kk">Kazakh</option>
+				<option value="km">Khmer</option>
+				<option value="kn">Kannada</option>
+				<option value="ko">Korean</option>
+				<option value="ky">Kirghiz, Kyrgyz</option>
+				<option value="lo">Lao</option>
+				<option value="lt">Lithuanian</option>
+				<option value="lv">Latvian</option>
+				<option value="mk">Macedonian</option>
+				<option value="ml">Malayalam</option>
+				<option value="mn">Mongolian</option>
+				<option value="mr">Marathi (Marāṭhī)</option>
+				<option value="ms">Malay</option>
+				<option value="my">Burmese</option>
+				<option value="ne">Nepali</option>
+				<option value="nl">Dutch</option>
+				<option value="no">Norwegian</option>
+				<option value="pa">Panjabi, Punjabi</option>
+				<option value="pl">Polish</option>
+				<option value="pt-BR">Portuguese (Brazil)</option>
+				<option value="pt-PT">Portuguese (Europe)</option>
+				<option value="ro">Romanian, Moldavan</option>
+				<option value="ru">Russian</option>
+				<option value="si">Sinhala, Sinhalese</option>
+				<option value="sk">Slovak</option>
+				<option value="sl">Slovene</option>
+				<option value="sq">Albanian</option>
+				<option value="sr">Serbian</option>
+				<option value="sv">Swedish</option>
+				<option value="sw">Swahili</option>
+				<option value="ta">Tamil</option>
+				<option value="te">Telugu</option>
+				<option value="th">Thai</option>
+				<option value="tr">Turkish</option>
+				<option value="uk">Ukrainian</option>
+				<option value="ur">Urdu</option>
+				<option value="uz">Uzbek</option>
+				<option value="vi">Vietnamese</option>
+				<option value="zh-CN">Chinese (Simplified)</option>
+				<option value="zh-HK">Chinese (Traditional, Hong Kong)</option>
+				<option value="zh-TW">Chinese (Traditional)</option>
+				<option value="zu">Zulu</option>
+			</select>
+			<br>
+			<br>
+			<br>
+			<b class="text">DOODLE:</b><br>
+			<select class=button id="folder">
+			<optgroup label="Pre 2012">
+			    <option value="pacman">30th Anniversary of PAC-MAN</option>
+			    <option value="stanislaw">60th Anniversary of Stanislaw Lem's First Publication</option>
+			<optgroup label="2012">
+				<option value="turing">Alan Turing's 100th Birthday</option>
+				<option value="hurdles2012">Hurdles 2012</option>
+				<option value="basketball2012">Basketball 2012</option>
+				<option value="slalom2012">Slalom Canoe 2012</option>
+				<option value="soccer2012">Soccer 2012</option>
+				<option value="startrek">46th Anniversary of Star Trek's 1st Broadcast</option>
+			<optgroup label="2013">
+				<option value="zamboni">Anniversary of Frank Zamboni's 112th Birthday</option>
+				<option value="chinese2013">Chinese New Year 2013</option>
+				<option value="roswell">Roswell's 66th Anniversary</option>
+			    <option value="qixi">Qixi Festival / Chilseok</option>
+				<option value="googles15th">Google's 15th Birthday</option>
+				<option value="halloween2013">Halloween 2013</option>
+				<option value="drwho">Doctor Who's 50th Anniversary</option>
+				<option value="crossword">100th Anniversary of the Crossword Puzzle</option>
+			<optgroup label="2014">
+				<option value="rubiks">Rubik's Cube</option>
+			<optgroup label="2015">
+				<option value="ponyexpress">155th Anniversary of the Pony Express</option>
+				<option value="eiji">Eiji Tsuburaya's 114th Birthday</option>
+				<option value="halloween2015">Global Candy Cup</option>
+				<option value="beethoven">Celebrating Ludwig van Beethoven's 245th Year</option>
+			<optgroup label="2016">
+				<option value="scoville">Wilbur Scoville's 151st Birthday</option>
+				<option value="rockmore">Clara Rockmore's 105th Birthday</option>
+				<option value="MCA">Magic Cat Academy</option>
+			<optgroup label="2017">
+				<option value="vday17">Pangolin Love</option>
+				<option value="vday17nv">Pangolin Love (No Vines)</option>
+				<option value="komodo">37th Anniversary of Komodo National Park</option>
+				<option value="icc">ICC Champions Trophy 2017</option>
+				<option value="hiphop">44th Anniversary of the Birth of Hip Hop</option>
+				<option value="coding">Celebrating 50 years of Kids Coding</option>
+			<optgroup label="2018">
+				<option value="sorensen">Celebrating S.P.L. Sorensen</option>
+				<option value="gnomes">Celebrating Garden Gnomes</option>
+				<option value="ghostduelog">The Great Ghoul Duel</option>
+			<optgroup label="2019">
+				<option value="baseball">Fourth of July 2019</option>
+				<option value="halloween2019">Halloween 2019</option>
+				<option value="loteria">Celebrating Loteria</option>
+			<optgroup label="2020">
+				<option value="earthday2020">Earth Day 2020</option>
+			  <option value="mbira">Celebrating Mbira</option>
+				<option value="MCA2">Magic Cat Academy 2</option>
+			<optgroup label="2021">	
+			    <option value="Savoy">Celebrating Swing Dancing and the Savoy Ballroom!</option>
+			    <option value="ChampionIslandPreRC7">Champion Island (Pre RC7)</option>
+				<option value="ChampionIslandRC7">Champion Island (RC7)</option>
+				<option value="wewa">Celebrating the late We:wa</option>
+				<option value="pizza">Celebrating Pizza</option>
+			<optgroup label="2022">
+				<option value="vday22">Valentine's Day 2022</option>
+				<optgroup label="Google Experiments">
+			<option value="quickdraw">Quick, Draw!</option>
+			<option value="interland">Interland - Be Internet Awesome</option>
+			<option value="umamiLand">Umami Land</option>
+			<option value="spaceshelter">Space Shelter</option>
+				<optgroup label="Other Google Games">
+			<option value="solitaire">Solitaire</option>
+			<option value="hopmania">Hop Mania</option>
+			<option value="qubit">The Qubit Game</option>
+			<option value="ChromeDino">Chrome Dino</option>
+				<optgroup label="Mods">
+			<option value="ChampionIslandrandomizer">Champion Island - Entrance Randomizer</option>
+			<option value="ChampionIslandRC7MashMod">Champion Island HUB</option>
+			</select>
+			<br>
+			<br>
+			<br>
+			<b class="text">SAVEDATA:</b><br>
+			<p class="text">Saves from all of the games are stored in one file.
+			<p>
+			<button class="button" onclick="exportSave()">Export Savefiles</button>
+			<button class="button" onclick="importSave()">Import Savefiles</button>
+			<button class="button" onclick="ClearSave()">Clear Savefiles</button>
+			<p>
+			<br>
+			<button class="button" onclick="play()">Start Game</button>
+			<br>
+			<br>
+			<h3 class="text">Use a button in top left corner in order to return to this menu.</h3>	
+			<h3 class="text"> Project creator: <b style="color: #993399;">RedMooschrom</b>
+			<br>
+			<br>
+			<button class=button onclick="credits()">Full Credits</button>
+			<p>
+			<p>
+				<p>
+				<button class=button type="button" onclick="javascript:window.close()">Exit</button>
+		</center>
+		<button class=button onclick="Mute()">Mute</button>
+		
+		<script>
+			
+			exportSave = function(){
+				  var element = document.createElement('a');
+				  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(btoa(JSON.stringify(localStorage))));
+				  element.setAttribute('download', "DoodlesSave.ksav");
+				  element.style.display = 'none';
+				  document.body.appendChild(element);
+				  element.click();
+				  document.body.removeChild(element);
+			}
+			
+			ClearSave = function() {
+			localStorage.clear("k, storage[k]");
+			alert("Savefiles have been cleared!")
+  }
+			importSave = function(){
+				var element = document.createElement('input');
+				element.setAttribute('type', "file");
+				element.setAttribute('accept', ".ksav");
+				element.setAttribute('id', "saveImportFile");
+				element.style.display = 'none';
+				document.body.appendChild(element);
+				element.addEventListener('change', function() {
+					var fr=new FileReader();
+					fr.onload=function(){
+						try {
+							storage = JSON.parse(atob(fr.result))
+							localStorage.clear();
+							Object.keys(storage).forEach(function (k) {
+								localStorage.setItem(k, storage[k]);
+							});
+							alert("Savedata was imported successfully!");
+						} catch (e) {
+							alert("Savedata was invalid!");
+						}
+					}
+					fr.readAsText(this.files[0]);
+				})
+				element.click();
+				document.body.removeChild(element);
+			}
+			
+			redirect = function(){
+				location = "/logos/run.html";
+			}
+			
+			play = function(){
+				localStorage["CONFIG_LANGUAGE"] = document.getElementById("language").value;
+				localStorage["FOLDER"] = document.getElementById("folder").value;
+				redirect();
+			}
+		</script>
+	</body>
+</html>
