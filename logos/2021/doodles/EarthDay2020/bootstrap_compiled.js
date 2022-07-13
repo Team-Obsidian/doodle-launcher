@@ -1,1 +1,0 @@
-self.importScripts("https://www.gstatic.com/external_hosted/d3_delaunay/d3_delaunay.min.js","https://www.gstatic.com/external_hosted/perlin/perlin.min.js","https://www.gstatic.com/external_hosted/seedrandom/seedrandom.min.js","generator_compiled.js");
