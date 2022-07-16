@@ -20920,8 +20920,8 @@ var zo = {
     archery: { type: "points", zt: 0, At: -2e3, xt: -4e3 },
     "archery:hard": { type: "points", zt: 0, At: -2e3, xt: -4e3 },
     "archery:ultra": { type: "points", zt: 0, At: -2e3, xt: -4e3 },
-    climbing: { type: "time", zt: 100, At: 200, xt: 300 },
-    "climbing:hard": { type: "time", zt: 100, At: 200, xt: 300 },
+    climbing: { type: "points", zt: 100, At: 200, xt: 300 },
+    "climbing:hard": { type: "points", zt: 100, At: 200, xt: 300 },
     marathon: { type: "time", zt: 100, At: 200, xt: 300 },
     "marathon:400m": { type: "time", zt: 100, At: 200, xt: 300 },
     "marathon:800m": { type: "time", zt: 100, At: 200, xt: 300 },
@@ -21533,10 +21533,10 @@ np.prototype.tick = function () {
             if (((c = g.ec.get(mi)), c || ((c = new mi()), g.ec.set(mi, c)), 0 >= k.l2)) {
                 if (((a = B(Math.round(ph(40, 280)), 169.2)), 20 < C(a.sub(m))))
                     switch (((c.g5 = a), (c.speed = 2.5 * Math.pow(b.mA, 0.5)), "ultra" == this.ha.Lc.fm.ha && (c.speed *= 1.25), g.gotoAndStop(c.g5.x < m.x ? "w" : "e"), this.ha.Lc.fm.ha)) {
-                        case "hard":
+                        case "hard1":
                             k.l2 = 40 / Math.pow(b.mA, 1.5);
                             break;
-                        case "ultra":
+                        case "hard":
                             k.l2 = 0;
                             break;
                         default:
