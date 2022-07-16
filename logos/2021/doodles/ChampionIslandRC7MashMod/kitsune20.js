@@ -4800,7 +4800,7 @@ var ij = function (b) {
     b = void 0 === b ? {} : b;
     D.call(this);
     this.Bw = this.dhb = this.Fs = this.w2 = this.Pea = 0;
-    this.oM = Ke("maxPoints", b, 500);
+    this.oM = Ke("maxPoints", b, 30);
     this.ha = Ke("maxBalls", b, 5);
     this.Z1 = 1e4;
 };
