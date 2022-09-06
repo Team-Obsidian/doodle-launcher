@@ -1,0 +1,1 @@
+!function(){var e={"/info.asp":"/","/history_colonelSanders.asp":"/early-years","/page2.asp":"/","/bio.asp":"/","/history_pressureCooker.asp":"/","/history.asp":"/","/history_secretRecipe.asp":"/kfc-secret-recipe-revealed","/shirley.asp":"/","/default.asp":"/"},a=window.location.pathname;e.hasOwnProperty(a)&&window.location.replace(e[a])}();

@@ -1,0 +1,36 @@
+#colForm input {
+	line-height:31px;
+}
+.agreeWrap {
+	position:relative;
+	top:4px;	
+	margin-left:12px;
+}
+input.file {
+	
+	position: relative;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	margin-bottom:-33px;
+	width:232px;
+	height:33px;
+}
+.fakeWrap {
+	height:33px;
+	width:232px;
+	position:relative;
+	margin-top:-25px;	
+}
+#csStory {
+	outline:none;
+	border:0px;
+}
+
+div.fileinputs {
+	margin:0;
+}
+.formCopy {
+	padding:10px 0px 10px 0px;
+}
