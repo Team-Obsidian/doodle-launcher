@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Apple Kid';
+    src: url('Apple-Kid.eot');
+    src: url('Apple-Kid.eot?#iefix') format('embedded-opentype'),
+        url('Apple-Kid.woff2') format('woff2'),
+        url('Apple-Kid.woff') format('woff'),
+        url('Apple-Kid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .button {
   background-color: #7B13CD;
   border: none;
@@ -22,7 +34,23 @@
 
 .text {
   color: white;
-  font-family: cursive;
+  font-family: 'Apple Kid';
+  font-size: 32px;
+}
+
+option {
+  font-family: 'Apple Kid';
+  font-size: 32px;
+}
+
+optgroup {
+  font-family: 'Apple Kid';
+  font-size: 32px;
+}
+
+select {
+  font-family: 'Apple Kid';
+  font-size: 32px;
 }
 
 .DoodlesLauncher::before {
@@ -48,4 +76,3 @@
   background-color: #6413CD;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-

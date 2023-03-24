@@ -29,15 +29,15 @@ function randomRange(to, from) {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 </style>
 
@@ -74,9 +74,10 @@ function randomRange(to, from) {
 		<center>
 			<br>
 			<br>
-			<b class="text">LANGUAGE:</b><br>
+			<p class="text">LANGUAGE:</p>
 			<p class="text">Not all doodles work in all of the languages. It depends on in which countries the doodle was released.
 			<p>
+
 			<select class=button id="language">
 				<option value="af">Afrikaans</option>
 				<option value="am">Amharic</option>
@@ -154,75 +155,25 @@ function randomRange(to, from) {
 				<option value="zh-TW">Chinese (Traditional)</option>
 				<option value="zu">Zulu</option>
 			</select>
+
 			<br>
-			<br>
-			<br>
-			<b class="text">DOODLE:</b><br>
+			<p class="text">DOODLE:</p>
 			<select class=button id="folder">
-			<optgroup label="Pre 2012">
 			    <option value="pacman">30th Anniversary of PAC-MAN</option>
-			    <option value="stanislaw">60th Anniversary of Stanislaw Lem's First Publication</option>
-			<optgroup label="2012">
-				<option value="turing">Alan Turing's 100th Birthday</option>
-				<option value="hurdles2012">Hurdles 2012</option>
-				<option value="basketball2012">Basketball 2012</option>
-				<option value="slalom2012">Slalom Canoe 2012</option>
-				<option value="soccer2012">Soccer 2012</option>
-				<option value="startrek">46th Anniversary of Star Trek's 1st Broadcast</option>
-			<optgroup label="2013">
-				<option value="zamboni">Anniversary of Frank Zamboni's 112th Birthday</option>
-				<option value="chinese2013">Chinese New Year 2013</option>
-				<option value="roswell">Roswell's 66th Anniversary</option>
-			    <option value="qixi">Qixi Festival / Chilseok</option>
-				<option value="googles15th">Google's 15th Birthday</option>
-				<option value="halloween2013">Halloween 2013</option>
 				<option value="drwho">Doctor Who's 50th Anniversary</option>
-				<option value="crossword">100th Anniversary of the Crossword Puzzle</option>
-			<optgroup label="2014">
-				<option value="rubiks">Rubik's Cube</option>
-			<optgroup label="2015">
-				<option value="ponyexpress">155th Anniversary of the Pony Express</option>
-				<option value="eiji">Eiji Tsuburaya's 114th Birthday</option>
-				<option value="halloween2015">Global Candy Cup</option>
-				<option value="beethoven">Celebrating Ludwig van Beethoven's 245th Year</option>
-			<optgroup label="2016">
-				<option value="scoville">Wilbur Scoville's 151st Birthday</option>
-				<option value="rockmore">Clara Rockmore's 105th Birthday</option>
 				<option value="MCA">Magic Cat Academy</option>
-			<optgroup label="2017">
 				<option value="vday17">Pangolin Love</option>
-				<option value="vday17nv">Pangolin Love (No Vines)</option>
-				<option value="komodo">37th Anniversary of Komodo National Park</option>
-				<option value="icc">ICC Champions Trophy 2017</option>
-				<option value="hiphop">44th Anniversary of the Birth of Hip Hop</option>
-				<option value="coding">Celebrating 50 years of Kids Coding</option>
-			<optgroup label="2018">
-				<option value="sorensen">Celebrating S.P.L. Sorensen</option>
-				<option value="gnomes">Celebrating Garden Gnomes</option>
-				<option value="ghostduelog">The Great Ghoul Duel</option>
-			<optgroup label="2019">
+				<option value="icc">ICC Cricket Champions Trophy 2017</option>
+				<option value="ghostduelog">The Great Ghoul Duel(Not Working)</option>
 				<option value="baseball">Fourth of July 2019</option>
-				<option value="halloween2019">Halloween 2019</option>
-				<option value="loteria">Celebrating Loteria</option>
-			<optgroup label="2020">
 				<option value="earthday2020">Earth Day 2020</option>
-			  <option value="mbira">Celebrating Mbira</option>
 				<option value="MCA2">Magic Cat Academy 2</option>
-			<optgroup label="2021">	
-			    <option value="Savoy">Celebrating Swing Dancing and the Savoy Ballroom!</option>
 			    <option value="ChampionIslandPreRC7">Champion Island (Pre RC7)</option>
 				<option value="ChampionIslandRC7">Champion Island (RC7)</option>
-				<option value="wewa">Celebrating the late We:wa</option>
-				<option value="pizza">Celebrating Pizza</option>
-			<optgroup label="2022">
-				<option value="vday22">Valentine's Day 2022</option>
 				<option value="petanque">Celebrating Petanque</option>
-				<optgroup label="Google Experiments">
 			<option value="quickdraw">Quick, Draw!</option>
-			<option value="interland">Interland - Be Internet Awesome</option>
-			<option value="umamiland">Umami Land</option>
+			<option value="umamiland">Umami Land(Laggy)</option>
 			<option value="spaceshelter">Space Shelter</option>
-				<optgroup label="Other Google Games">
 			<option value="solitaire">Solitaire</option>
 			<option value="mapsnake">Google Maps Snake</option>
 			<option value="hopmania">Hop Mania</option>
@@ -246,7 +197,7 @@ function randomRange(to, from) {
 			<button class="button" onclick="play()">Start Game</button>
 			<br>
 			<br>
-			<h3 class="text">Use a button in top left corner in order to return to this menu.</h3>	
+			<h3 class="text">Use a button in top left corner in order to return to this menu.</h3>
 			<h3 class="text"> Project creator: <b style="color: #993399;">RedMooschrom</b>
 			<br>
 			<br>
@@ -257,9 +208,9 @@ function randomRange(to, from) {
 				<button class=button type="button" onclick="javascript:window.close()">Exit</button>
 		</center>
 		<button class=button onclick="Mute()">Mute</button>
-		
+
 		<script>
-			
+
 			exportSave = function(){
 				  var element = document.createElement('a');
 				  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(btoa(JSON.stringify(localStorage))));
@@ -269,7 +220,7 @@ function randomRange(to, from) {
 				  element.click();
 				  document.body.removeChild(element);
 			}
-			
+
 			ClearSave = function() {
 			localStorage.clear("k, storage[k]");
 			alert("Savefiles have been cleared!")
@@ -300,11 +251,11 @@ function randomRange(to, from) {
 				element.click();
 				document.body.removeChild(element);
 			}
-			
+
 			redirect = function(){
 				location = "/logos/run.html";
 			}
-			
+
 			play = function(){
 				localStorage["CONFIG_LANGUAGE"] = document.getElementById("language").value;
 				localStorage["FOLDER"] = document.getElementById("folder").value;
