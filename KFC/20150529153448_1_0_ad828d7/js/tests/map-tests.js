@@ -1,0 +1,1 @@
+define(["jquery","config","libs/mocha","libs/expect"],function(n,o,e){return function(){e.ui("bdd"),describe("Map Controller",function(){it("should load",function(){requirejs(["controller/map_controller"],function(){})})})}});

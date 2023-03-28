@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>404</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+
+	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="/20170509170207_1_0_ea7a9109/css/maintenance.css">
+    <script src="/20170509170207_1_0_ea7a9109/js/404.js"></script>
+</head>
+<body>
+	<div class="fourOfour__bg"></div>
+	<img class="fourOfour__maintenance" src="/20170509170207_1_0_ea7a9109/img/404/maintence.png" alt="Howdy Internet visitor, I regret to inform you I have to do some maintenance on my Internet website. The good news is I am almost finished with my HTML home correspondence course and I'll have her running again in no time. Yours truly, Col Harland Sanders"/>
+</body>
+</html>

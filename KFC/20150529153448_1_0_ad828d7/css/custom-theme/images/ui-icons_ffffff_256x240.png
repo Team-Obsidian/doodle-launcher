@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>404</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+
+	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="/20150519121918_1_0_9e3ce8b/css/404.css">
+
+</head>
+<body>
+	<div class="fourOfour__bg"></div>
+	<img class="fourOfour__sign" src="/20150519121918_1_0_9e3ce8b/img/404/sign.png" alt="">
+</body>
+</html>

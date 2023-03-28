@@ -1,0 +1,1 @@
+body{background-color:#000;}.rootNode{display:none;}.hidden{display:none;}.toggle-audio{display:none;width:30px;height:30px;background:url(../img/embed/playing.png) no-repeat;position:absolute;top:0px;left:0px;cursor:pointer;}.toggle-audio.is-mute{background:url(../img/embed/mute.png) no-repeat;}
